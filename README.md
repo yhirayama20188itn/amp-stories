@@ -20,3 +20,5 @@ This tutorial is licensed under [Apache License, Version 2.0](https://github.com
 
 ## Reference
 - https://amp.dev/ja/documentation/guides-and-tutorials/start/visual_story/start_story/?format=websites
+
+- https://www.wired.com/tag/amp-stories/
