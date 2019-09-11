@@ -37,6 +37,18 @@
     .bg--orange {
       background-color: rgba(255,0,0,0.4);
     }
+    .bg--white {
+      background-color: rgba(255,255,255,0.4);
+      color: #000;
+    }
+    .text__center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .font__bold {
+      font-weight: 700;
+    }
   </style>
 </head>
 
@@ -63,7 +75,7 @@
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
           <h1 grid-area="upper-third" class="black">気球から見るカッパドキア</h1>
-          <p grid-area="lower-third" class="black">世界遺産の奇岩群の中に浮かぶ彩り溢れた気球が、アンバランスな美しい光景を作り出している。<br>天候が安定していれば上限800Ｍまで高く昇ることができる。</p>
+          <p grid-area="lower-third" class="bg bg--white">世界遺産の奇岩群の中に浮かぶ彩り溢れた気球が、アンバランスな美しい光景を作り出している。<br>天候が安定していれば上限800Ｍまで高く昇ることができる。</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -81,6 +93,20 @@
           </div>
         </amp-story-grid-layer>
       </amp-story-page>
+
+      <!-- Page 3 -->
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/my_tutorial/ancient-architecture-arid-2563599.jpg" width="740" height="1110"
+            layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <h1 grid-area="middle-third" animate-in="fade-in" animate-in-delay="0.5s" class="text__center font__bold">旅とは？</h1>
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+
 
 
 </body>
