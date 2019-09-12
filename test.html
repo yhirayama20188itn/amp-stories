@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Skytravel in Cappadocia</title>
+  <title>○○旅 in カッパドキア</title>
   <link rel="canonical" href="pets.html">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -12,13 +12,13 @@
   <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
   <style amp-custom>
-    amp-story{font-family:Oswald,sans-serif;color:#fff}amp-story-page{background-color:#000}h1{font-weight:700;font-size:2.875em;font-weight:400;line-height:1.174}p{font-weight:400;font-size:1.3em;line-height:1.5em;color:#fff}q{font-weight:300;font-size:1.1em}amp-story-grid-layer.bottom{align-content:end}amp-story-grid-layer.noedge{padding:0}amp-story-grid-layer.center-text{align-content:center}.wrapper{display:grid;grid-template-columns:50% 50%;grid-template-rows:50% 50%}.banner-text{text-align:center;background-color:#000;line-height:2em}
+    amp-story{font-family:Oswald,sans-serif;color:#fff}amp-story-page{background-color:#000}h1{font-weight:700;font-size:2.875em;font-weight:400;line-height:1.174}p{font-weight:400;font-size:1.3em;line-height:1.5em;color:#fff}q{font-weight:300;font-size:1.1em}amp-story-grid-layer.bottom{align-content:end}amp-story-grid-layer.noedge{padding:0}amp-story-grid-layer.center-text{align-content:center}.wrapper{display:grid;grid-template-columns:50% 50%;grid-template-rows:50% 50%}.banner-text{text-align:center;background-color:#000;}
     h1 {
-      font-size: 7vw;
+      font-size: 6vw;
       margin-bottom: 5px;
     }
     p {
-      font-size: 4vw;
+      font-size: 3.8vw;
     }
     .black {
       color: black;
@@ -31,6 +31,7 @@
       top: 3px;
       height: calc(100% - 8px);
     }
+    /* bg */
     .bg {
       padding: 3vw;
     }
@@ -49,6 +50,15 @@
     .font__bold {
       font-weight: 700;
     }
+    /* block */
+    .four__blocks {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .four__blocks__item img {
+      object-fit: cover;
+    }
+    /* lastpage */
     .lastpage__block {
       display: flex;
       justify-content: center;
@@ -68,7 +78,7 @@
     <!-- 表紙 -->
     <amp-story-page id="cover">
       <amp-story-grid-layer template="fill">
-        <amp-img src="assets/my_tutorial/adventure-air-aircraft-2893962.jpg" width="720" height="1280" layout="responsive">
+        <amp-img src="assets/my_tutorial/adventure-air-aircraft-2893962.jpg" width="938" height="1280" layout="responsive">
         </amp-img>
       </amp-story-grid-layer>
       <amp-story-grid-layer template="vertical">
@@ -106,6 +116,29 @@
 
       <!-- Page 3 -->
       <amp-story-page id="page3">
+        <amp-story-grid-layer template="vertical" class="noedge">
+          <div class="wrapper">
+            <amp-img src="assets/my_tutorial/other_reference/20181216011322.jpg" width="720" height="1280" layout="responsive" animate-in="fade-in"
+              animate-in-delay="0.4s">
+            </amp-img>
+            <amp-img src="assets/my_tutorial/other_reference/20181216011352.jpg" width="720" height="1280" layout="responsive" animate-in="fade-in"
+              animate-in-delay="0.6s">
+            </amp-img>
+            <amp-img src="assets/my_tutorial/other_reference/20181216011504.jpg" width="720" height="1280" layout="responsive" animate-in="fade-in"
+              animate-in-delay=".8s">
+            </amp-img>
+            <amp-img src="assets/my_tutorial/other_reference/20181216011639.jpg" width="720" height="1280" layout="responsive" animate-in="fade-in"
+              animate-in-delay="1s">
+            </amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="third" class="center-text">
+          <p grid-area="upper-third" class="bg bg--white" animate-in="whoosh-in-left">建物が新しく、お部屋の雰囲気が明るいギョレメ イン ホテル。<br>早起きすれば、こんなに目の前で気球を見ることもできます</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- Page 4 -->
+      <amp-story-page id="page4">
         <amp-story-grid-layer template="fill">
           <amp-img src="assets/my_tutorial/ancient-architecture-arid-2563599.jpg" width="740" height="1110"
             layout="responsive">
@@ -116,8 +149,8 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Page 4 -->
-      <amp-story-page id="page4" class="bg--white lastpage">
+      <!-- Page Last -->
+      <amp-story-page id="page6" class="bg--white lastpage">
         <amp-story-grid-layer template="thirds">
           <div class="lastpage__block" grid-area="middle-third">
           <amp-img animate-in="twirl-in" animate-in-delay="0.5s" src="assets/my_tutorial/icon.png" width="60" height="60" layout="responsive" class="lastpage__icon text__center"></amp-img>
@@ -129,6 +162,8 @@
           </div>
         </amp-story-grid-layer>
       </amp-story-page>
+
+      <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
 
   </amp-story>
 

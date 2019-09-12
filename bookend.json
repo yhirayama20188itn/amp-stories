@@ -11,31 +11,40 @@
       "text": "More to read"
     },
     {
-      "type": "small",
-      "title": "Learn about cats",
-      "url": "https://wikipedia.org/wiki/Cat",
-      "image": "assets/bookend_cats.jpg"
-    },
-    {
       "type": "landscape",
-      "title": "Learn about border collies",
-      "url": "https://wikipedia.org/wiki/Border_Collie",
-      "image": "assets/bookend_dogs.jpg",
-      "category": "Dogs"
+      "title": "【オプショナルツアー】絶景！！気球から見るカッパドキア",
+      "url": "https://activities.his-j.com/TourLeaf/B110001/",
+      "image": "https://activities.his-j.com/images/tour/B110001/Tr00100420190507191820232.jpg"
     },
     {
-      "type": "portrait",
-      "title": "Learn about macaws",
-      "url": "https://wikipedia.org/wiki/Macaw",
-      "image": "assets/bookend_birds.jpg",
-      "category": "birds"
+      "type": "small",
+      "title": "【ツアー】トルコ10日間（添乗員同行/羽田発着）",
+      "url": "https://e.his-j.com/sp/tour/voyage/02A_10/TI-LIT0204___1",
+      "image": "https://e.his-j.com/images/area6/tur/w472/cappadocia/b11_fairy-chimney02w472.jpg",
+      "category": "Tour"
+    },
+    {
+      "type": "small",
+      "title": "【ツアー】トルコ＆エジプト2ヵ国9日間（添乗員同行/成田発着）",
+      "url": "https://e.his-j.com/sp/tour/voyage/02A_10/TI-LIT0211___1",
+      "image": "https://e.his-j.com/images/area6/tur/w472/tur_dream01w472.jpg",
+      "category": "Tour"
     },
     {
       "type": "cta-link",
       "links": [
         {
-          "text": "Learn more",
-          "url": "https://www.ampproject.org/stories/"
+          "text": "カッパドキアのツアーをもっと見る",
+          "url": "https://tour.his-j.com/ct/sp/search/02A_10/AFR/TUR/B11/"
+        }
+      ]
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "カッパドキアのオプショナルツアーをもっと見る",
+          "url": "https://activities.his-j.com/CityTop/B11/"
         }
       ]
     }
