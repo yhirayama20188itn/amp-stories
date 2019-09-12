@@ -1,5 +1,5 @@
 <!doctype html>
-<html âš¡>
+<html lang="ja">
 
 <head>
   <meta charset="utf-8">
@@ -14,11 +14,11 @@
   <style amp-custom>
     amp-story{font-family:Oswald,sans-serif;color:#fff}amp-story-page{background-color:#000}h1{font-weight:700;font-size:2.875em;font-weight:400;line-height:1.174}p{font-weight:400;font-size:1.3em;line-height:1.5em;color:#fff}q{font-weight:300;font-size:1.1em}amp-story-grid-layer.bottom{align-content:end}amp-story-grid-layer.noedge{padding:0}amp-story-grid-layer.center-text{align-content:center}.wrapper{display:grid;grid-template-columns:50% 50%;grid-template-rows:50% 50%}.banner-text{text-align:center;background-color:#000;line-height:2em}
     h1 {
-      font-size: 28px;
+      font-size: 7vw;
       margin-bottom: 5px;
     }
     p {
-      font-size: 18px;
+      font-size: 4vw;
     }
     .black {
       color: black;
@@ -49,20 +49,30 @@
     .font__bold {
       font-weight: 700;
     }
+    .lastpage__block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .lastpage__icon {
+      width: 120px;
+      height: 120px;
+    }
   </style>
 </head>
 
 <body>
-  <!-- Cover page -->
   <amp-story standalone title="A Cappadocia Story" publisher="AMP tutorials"
     publisher-logo-src="assets/my_tutorial/icon.png" poster-portrait-src="assets/my_tutorial/adventure-air-aircraft-2893962.jpg">
+
+    <!-- 表紙 -->
     <amp-story-page id="cover">
       <amp-story-grid-layer template="fill">
         <amp-img src="assets/my_tutorial/adventure-air-aircraft-2893962.jpg" width="720" height="1280" layout="responsive">
         </amp-img>
       </amp-story-grid-layer>
       <amp-story-grid-layer template="vertical">
-        <h1>Skytravel in Cappadocia</h1>
+        <h1>○○旅 in カッパドキア</h1>
         <p>By H.I.S.</p>
       </amp-story-grid-layer>
     </amp-story-page>
@@ -102,12 +112,25 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-          <h1 grid-area="middle-third" animate-in="fade-in" animate-in-delay="0.5s" class="text__center font__bold">旅とは？</h1>
+          <h1 grid-area="middle-third" animate-in="fade-in" animate-in-delay="0.5s" class="text__center font__bold">回り道</h1>
         </amp-story-grid-layer>
-
       </amp-story-page>
 
+      <!-- Page 4 -->
+      <amp-story-page id="page4" class="bg--white lastpage">
+        <amp-story-grid-layer template="thirds">
+          <div class="lastpage__block" grid-area="middle-third">
+          <amp-img animate-in="twirl-in" animate-in-delay="0.5s" src="assets/my_tutorial/icon.png" width="60" height="60" layout="responsive" class="lastpage__icon text__center"></amp-img>
+          </div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <div class="lastpage__block" grid-area="lower-third">
+            <p animate-in="fade-in" animate-in-delay="2s">Love, Peace, Travel</p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
 
+  </amp-story>
 
 </body>
 
